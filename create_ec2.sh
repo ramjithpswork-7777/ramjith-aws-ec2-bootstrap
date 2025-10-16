@@ -4,7 +4,7 @@
 set -e
 KEY_NAME=${1:-my-key}
 SG_ID=${2:-sg-xxxxxxxx}
-AMI_ID="ami-0c02fb55956c7d316"  # example for ap-south-1
+AMI_ID="ami-0bb7d855677353076"  # example for ap-south-1
 INSTANCE_TYPE="t2.micro"
 USER_DATA_FILE="bootstrap.sh"
 
